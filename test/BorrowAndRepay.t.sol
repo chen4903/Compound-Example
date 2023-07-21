@@ -5,6 +5,7 @@ import "forge-std/Test.sol";
 import "./utils/TestUtils.sol";
 
 /// @notice 借款，还款
+// forge test --match-path test/BorrowAndRepay.t.sol -vvvv
 contract BorrowAndRepayTest is Test, TestUtils {
     function setUp() public {
         // fork主网 16_401_180.的区块
